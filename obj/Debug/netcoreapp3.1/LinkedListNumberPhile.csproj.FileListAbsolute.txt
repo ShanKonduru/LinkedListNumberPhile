@@ -1,0 +1,13 @@
+C:\SeleniumProjects\LinkedListNumberPhile\obj\Debug\netcoreapp3.1\LinkedListNumberPhile.csprojAssemblyReference.cache
+C:\SeleniumProjects\LinkedListNumberPhile\obj\Debug\netcoreapp3.1\LinkedListNumberPhile.AssemblyInfoInputs.cache
+C:\SeleniumProjects\LinkedListNumberPhile\obj\Debug\netcoreapp3.1\LinkedListNumberPhile.AssemblyInfo.cs
+C:\SeleniumProjects\LinkedListNumberPhile\obj\Debug\netcoreapp3.1\LinkedListNumberPhile.csproj.CoreCompileInputs.cache
+C:\SeleniumProjects\LinkedListNumberPhile\bin\Debug\netcoreapp3.1\LinkedListNumberPhile.exe
+C:\SeleniumProjects\LinkedListNumberPhile\bin\Debug\netcoreapp3.1\LinkedListNumberPhile.deps.json
+C:\SeleniumProjects\LinkedListNumberPhile\bin\Debug\netcoreapp3.1\LinkedListNumberPhile.runtimeconfig.json
+C:\SeleniumProjects\LinkedListNumberPhile\bin\Debug\netcoreapp3.1\LinkedListNumberPhile.runtimeconfig.dev.json
+C:\SeleniumProjects\LinkedListNumberPhile\bin\Debug\netcoreapp3.1\LinkedListNumberPhile.dll
+C:\SeleniumProjects\LinkedListNumberPhile\bin\Debug\netcoreapp3.1\LinkedListNumberPhile.pdb
+C:\SeleniumProjects\LinkedListNumberPhile\obj\Debug\netcoreapp3.1\LinkedListNumberPhile.dll
+C:\SeleniumProjects\LinkedListNumberPhile\obj\Debug\netcoreapp3.1\LinkedListNumberPhile.pdb
+C:\SeleniumProjects\LinkedListNumberPhile\obj\Debug\netcoreapp3.1\LinkedListNumberPhile.genruntimeconfig.cache
