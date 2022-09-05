@@ -2,6 +2,16 @@
 
 namespace LinkedListNumber {
     class Program {
+
+        public static void PrintTree (Node tree, String indent, bool last) {
+            Console.WriteLine (indent + "+- " + tree.Key);
+            indent += last ? "   " : "|  ";
+
+            for (int i = 0; i < tree.Children.Count; i++) {
+                PrintTree (tree.Children[i], indent, i == tree.Children.Count - 1);
+            }
+        }
+
         static void Main (string[] args) {
             Console.WriteLine ("Hello World!");
             Tree root = new Tree (50);
@@ -40,7 +50,9 @@ namespace LinkedListNumber {
             root.AddChild (node30);
             root.AddChild (node40);
 
-            root.PrintPretty ("", true);
+            // root.PrintPretty ("", true);
+
+            PrintTree (root._root, " ", true);
 
             // root.LevelOrderTraversal ();
         }

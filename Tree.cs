@@ -45,40 +45,14 @@ namespace LinkedListNumber {
             _root.PrintPretty (indent, last);
         }
 
-/*
-        // Prints the n-ary tree level wise
-        public void LevelOrderTraversal () {
-                if (_root == null) {
-                    return;
-                }
+        public static void PrintTree (Node tree, String indent, bool last) {
+            Console.Write (indent + "+- " + tree.Key);
+            indent += last ? "   " : "|  ";
 
-                // Standard level order traversal code
-                // using queue
-                Queue<Node> q = new Queue<Node> (); // Create a queue
-                q.Enqueue (_root); // Enqueue root
-                while (q.Count != 0) {
-                    int n = q.Count;
-
-                    // If this node has children
-                    while (n > 0) {
-                        // Dequeue an item from queue
-                        // and print it
-                        Node p = q.Peek ();
-                        q.Dequeue ();
-                        Console.Write (p.Key + " ");
-
-                        // Enqueue all children of
-                        // the dequeued item
-                        for (int i = 0; i < p.Children.Count; i++) {
-                            q.Enqueue (p.Children[i]);
-                        }
-                        n--;
-                    }
-
-                    // Print new line between two levels
-                    Console.WriteLine ();
-                }
+            for (int i = 0; i < tree.Children.Count; i++) {
+                PrintTree (tree.Children[i], indent, i == tree.Children.Count - 1);
             }
-            */
+        }
+
     }
 }
