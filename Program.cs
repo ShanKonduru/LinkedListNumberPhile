@@ -13,6 +13,30 @@ namespace LinkedListNumber {
         }
 
         static void Main (string[] args) {
+            BinaryTree btr = new BinaryTree ();
+            btr.Add (6);
+            btr.Add (2);
+            btr.Add (3);
+            btr.Add (5);
+            btr.Add (7);
+            btr.Add (6);
+            btr.Add (4);
+
+            btr.Add (11);
+            btr.Add (9);
+            btr.Add (13);
+            btr.Add (14);
+            btr.Add (18);
+            btr.Add (30);
+            btr.Add (17);
+            btr.Add (1);
+            btr.Add (10);
+            btr.Add (16);
+
+            BinaryTreePrinter.PrintMe (btr._root);
+            BinaryTreePrinter.Print (btr._root);
+
+            /*
             Console.WriteLine ("Hello World!");
             Tree root = new Tree (50);
             Node node10 = Node.newNode (10);
@@ -55,6 +79,7 @@ namespace LinkedListNumber {
             PrintTree (root._root, " ", true);
 
             // root.LevelOrderTraversal ();
+            */
         }
     }
 }
